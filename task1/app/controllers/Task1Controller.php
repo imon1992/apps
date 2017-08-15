@@ -51,7 +51,8 @@ class Task1Controller extends BaseController
 
         if ($validator->fails())
         {
-            return Redirect::to('contact-us')->withErrors($validator);
+            $failMessage = $validator->messages();
+            return Redirect::to('contact-us')->withErrors($failMessage);
         }else
         {
             return View::make('task1.thankYou',['name'=>Input::get('name')]);

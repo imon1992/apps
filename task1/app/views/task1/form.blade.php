@@ -1,6 +1,8 @@
 @extends('task1.layout')
 
 @section('content')
+    {{ $errors->first('name'); }}
+    {{--{{ $errors->second('message'); }}--}}
 
     <form class="form-horizontal" method="post" action="">
         <div class="form-group">
@@ -22,6 +24,5 @@
             </div>
         </div>
     </form>
-
 
 @stop
