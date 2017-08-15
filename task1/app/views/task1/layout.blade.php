@@ -27,10 +27,10 @@
     <nav class="navbar navbar-default">
         <div class="container-fluid col-md-offset-4">
             <ul class="nav navbar-nav navbar-left ">
-                <li><a href="http://apps/task1/public/home">home</a></li>
-                <li><a href="http://apps/task1/public/contact-us">contact-us</a></li>
-                <li><a href="http://apps/task1/public/about">About</a></li>
-                <li><a href="http://apps/task1/public/articles">Articles</a></li>
+                <li><a href="home">home</a></li>
+                <li><a href="contact-us">contact-us</a></li>
+                <li><a href="about">About</a></li>
+                <li><a href="articles">Articles</a></li>
 
             </ul>
         </div><!-- /.container-fluid -->

@@ -19,16 +19,16 @@ class Task1Controller extends BaseController
 
     public function showArticles()
     {
-        $articles = ['articles'=>['article1'=>['articleText' =>'First article text','articleHref'=>'http://apps/task1/public/articles/1'],
-            'article2'=>['articleText' =>'2 article text','articleHref'=>'http://apps/task1/public/articles/2'],
-            'article3'=>['articleText' =>'3 article text','articleHref'=>'http://apps/task1/public/articles/3'],
-            'article4'=>['articleText' =>'4 article text','articleHref'=>'http://apps/task1/public/articles/4'],
-            'article5'=>['articleText' =>'5 article text','articleHref'=>'http://apps/task1/public/articles/5'],
-            'article6'=>['articleText' =>'6 article text','articleHref'=>'http://apps/task1/public/articles/6'],
-            'article7'=>['articleText' =>'7 article text','articleHref'=>'http://apps/task1/public/articles/7'],
-            'article8'=>['articleText' =>'8 article text','articleHref'=>'http://apps/task1/public/articles/8'],
-            'article9'=>['articleText' =>'9 article text','articleHref'=>'http://apps/task1/public/articles/9'],
-            'article10'=>['articleText' =>'10 article text','articleHref'=>'http://apps/task1/public/articles/10']]];
+        $articles = ['articles'=>['article1'=>['articleText' =>'First article text','articleHref'=>'articles/1'],
+            'article2'=>['articleText' =>'2 article text','articleHref'=>'articles/2'],
+            'article3'=>['articleText' =>'3 article text','articleHref'=>'articles/3'],
+            'article4'=>['articleText' =>'4 article text','articleHref'=>'articles/4'],
+            'article5'=>['articleText' =>'5 article text','articleHref'=>'articles/5'],
+            'article6'=>['articleText' =>'6 article text','articleHref'=>'articles/6'],
+            'article7'=>['articleText' =>'7 article text','articleHref'=>'articles/7'],
+            'article8'=>['articleText' =>'8 article text','articleHref'=>'articles/8'],
+            'article9'=>['articleText' =>'9 article text','articleHref'=>'articles/9'],
+            'article10'=>['articleText' =>'10 article text','articleHref'=>'articles/10']]];
 
         return View::make('task1.articles',$articles);
     }
